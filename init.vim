@@ -9,6 +9,11 @@ set showmatch
 set signcolumn=yes
 set expandtab
 set tabstop=2 shiftwidth=2
+set clipboard=unnamed
+set nobackup
+set nowritebackup
+
+syntax enable
 
 filetype plugin indent on
 
@@ -18,7 +23,10 @@ set listchars=tab:▸\ ,trail:▫,extends:>,precedes:<,nbsp:+
 so ~/.config/nvim/plugins.vim
 so ~/.config/nvim/plugins-config.vim
 
-colorscheme one
-set background=dark
-let g:one_allow_italics = 1 " italic for comments
+colorscheme gruvbox
+let g:gruvbox_contrast_dark = "hard"
+highlight Normal ctermbg=NONE
+set laststatus=2
+set noshowmode
+
 
