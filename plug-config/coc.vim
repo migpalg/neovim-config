@@ -169,7 +169,8 @@ let g:coc_global_extensions = [
   \ 'coc-tsserver',
   \ 'coc-html',
   \ 'coc-explorer',
-  \ 'coc-snippets'
+  \ 'coc-snippets',
+  \ 'coc-eslint',
   \ ]
 
 " Explorer
