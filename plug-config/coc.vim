@@ -171,6 +171,9 @@ let g:coc_global_extensions = [
   \ 'coc-explorer',
   \ 'coc-snippets',
   \ 'coc-eslint',
+  \ 'coc-clangd',
+  \ 'coc-cmake',
+  \ 'coc-emmet'
   \ ]
 
 " Explorer
